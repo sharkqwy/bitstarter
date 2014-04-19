@@ -42,7 +42,6 @@ var cheerioHtmlUrl = function(result, response){
   } else {
     return cheerio.load(result);
   }
-  return "";
 };
 
 var checkHtmlUrl = function(url, checksfile)
